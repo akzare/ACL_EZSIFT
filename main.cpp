@@ -1,12 +1,13 @@
-/*	Copyright (c) 2013, Robert Wang, email: robertwgh (at) gmail.com
-    Copyright (c) 2017, Armin Zare Zadeh, email: ali.a.zarezadeh (at) gmail.com
-	All rights reserved. https://sourceforge.net/p/ezsift
+/*  
+Copyright (c) 2013, Robert Wang, email: robertwgh (at) gmail.com
+Copyright (c) 2017, Armin Zare Zadeh, email: ali.a.zarezadeh (at) gmail.com
+All rights reserved. https://sourceforge.net/p/ezsift
 
-	Description: Detect keypoints and extract descriptors from an input image.
+Description: Detect keypoints and extract descriptors from an input image.
 
-	Revision history:
-		September, 15, 2013: initial version.
-		May, 18, 2017: Used OpenCV for reading & writing & manipulating images and ACL Neon for computation on ARM NEON technology.
+Revision history:
+  September, 15, 2013: initial version.
+  May, 18, 2017: Used OpenCV for reading & writing & manipulating images and ACL Neon for computation on ARM NEON/Mali technology.
 */
 
 #include "opencv2/opencv.hpp"

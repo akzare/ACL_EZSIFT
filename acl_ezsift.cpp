@@ -1,26 +1,27 @@
-/*	Copyright (c) 2013, Robert Wang, email: robertwgh (at) gmail.com
-    Copyright (c) 2017, Armin Zare Zadeh, email: ali.a.zarezadeh (at) gmail.com
-	All rights reserved. https://sourceforge.net/p/ezsift
+/*	
+Copyright (c) 2013, Robert Wang, email: robertwgh (at) gmail.com
+Copyright (c) 2017, Armin Zare Zadeh, email: ali.a.zarezadeh (at) gmail.com
+All rights reserved. https://sourceforge.net/p/ezsift
 
-	Some algorithms used in this code referred to:
-	1. OpenCV: http://opencv.org/
-	2. VLFeat: http://www.vlfeat.org/
+Some algorithms used in this code referred to:
+1. OpenCV: http://opencv.org/
+2. VLFeat: http://www.vlfeat.org/
 
-	The SIFT algorithm was developed by David Lowe. More information can be found from:
-	David G. Lowe, "Distinctive image features from scale-invariant keypoints,"
-	International Journal of Computer Vision, 60, 2 (2004), pp. 91-110.
+The SIFT algorithm was developed by David Lowe. More information can be found from:
+David G. Lowe, "Distinctive image features from scale-invariant keypoints,"
+International Journal of Computer Vision, 60, 2 (2004), pp. 91-110.
 
-	Pay attention that the SIFT algorithm is patented. It is your responsibility to use the code
-	in a legal way. Patent information:
-	Method and apparatus for identifying scale invariant features in an image
-	and use of same for locating an object in an image	David G. Lowe, US Patent 6,711,293
-	(March 23, 2004). Provisional application filed March 8, 1999. Asignee: The University of
-	British Columbia.
+Pay attention that the SIFT algorithm is patented. It is your responsibility to use the code
+in a legal way. Patent information:
+Method and apparatus for identifying scale invariant features in an image
+and use of same for locating an object in an image	David G. Lowe, US Patent 6,711,293
+(March 23, 2004). Provisional application filed March 8, 1999. Asignee: The University of
+British Columbia.
 
-	Revision history:
-		September, 15, 2013: initial version.
-		July 8th, 2014: fixed a bug in sample_2x in image.h. The bug only happened for image with odd width or height.
-		May 18 2017: ported to run on ARM Neon Technology by using ARM Computation Library (ACL)
+Revision history:
+  September, 15, 2013: initial version.
+  July 8th, 2014: fixed a bug in sample_2x in image.h. The bug only happened for image with odd width or height.
+  May 18 2017: ported to run on ARM Neon/Mali Technology by using ARM Computation Library (ACL)
 */
 
 
