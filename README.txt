@@ -32,3 +32,4 @@ prefixes. In both cases, only the computation of images hierarchies
 (octaves, Gaussian, difference of Gaussian, Gradient & Rotation) 
 are performed either on the NEON or Mali, the rest of the computation 
 is performed on the CPU.
+
